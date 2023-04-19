@@ -5,6 +5,7 @@ Yuning Cui, Yi Tao, [Zhenshan Bing](https://scholar.google.com.hk/citations?user
 [![](https://img.shields.io/badge/ICLR-Paper-blue.svg)](https://openreview.net/forum?id=tyZ1ChGZIKO)
 
 ## Update 
+- 2023.04.19  :tada: Release our results on RSBlur
 - 2023.04.14 	:tada: Release pre-trained models, code for three tasks (dehazing, motion deblurring, desnowing), and resulting images on most datasets.
 
 >Image restoration aims to reconstruct the latent sharp image from its corrupted counterpart. Besides dealing with this long-standing task in the spatial domain, a few approaches seek solutions in the frequency domain in consideration of the large discrepancy between spectra of sharp/degraded image pairs. However, these works commonly utilize transformation tools, e.g., wavelet transform, to split features into several frequency parts, which is not flexible enough to select the most informative frequency component to recover. In this paper, we exploit a multi-branch and content-aware module to decompose features into separate frequency subbands dynamically and locally, and then accentuate the useful ones via channel-wise attention weights. In addition, to handle large-scale degradation blurs, we propose an extremely simple decoupling and modulation module to enlarge the receptive field via global and window-based average pooling. Integrating two developed modules into a U-Net backbone, the proposed Selective Frequency Network (SFNet) performs favorably against state-of-the-art algorithms on five image restoration tasks, including single-image defocus deblurring, image dehazing, image motion deblurring, image desnowing, and image deraining.
@@ -33,7 +34,7 @@ Please refer to respective directories.
 |----|------|-----|----|------|
 |**Motion Deblurring**|GoPro|33.27|0.963|[gdrive](https://drive.google.com/file/d/1mVerQce1ZZFkKOj0Cbwyj49ZPWdHcO2z/view?usp=sharing),[Baidu](https://pan.baidu.com/s/1ZVHjcpVeZBZU13npEgWCCg?pwd=7kqi)|
 ||HIDE|31.10|0.941|[gdrive](https://drive.google.com/file/d/1T1ZBg2gfqRCmhjvYD6qrgOdv9ZY0abHk/view?usp=sharing),[Baidu](https://pan.baidu.com/s/1GqGs_oGUbupQ1kSaMmSVGw?pwd=vu68)|
-||RSBlur|34.35|0.872||
+||RSBlur|34.35|0.872|[gdrive](https://drive.google.com/file/d/1-3IO7dOfhkH-rQVudxhRSMI59LfLXdH4/view?usp=sharing),[Baidu](https://pan.baidu.com/s/1HqP4gkRxCPxu8vYmdqWvEg?pwd=bfhh)|
 |**Image Dehazing**|SOTS-Indoor|41.24|0.996|[gdrive](https://drive.google.com/file/d/1d-IMbzp3N42dEP1IN-VphAT2Ok2dTH90/view?usp=sharing),[Baidu](https://pan.baidu.com/s/1ewi9VLbGnmDbQDyLeXgpuQ?pwd=occl)|
 ||SOTS-Outdoor|40.05|0.996|[gdrive](https://drive.google.com/file/d/1m_FTpMYBZBqN76VtEkp2VEKA7WpIL0hO/view?usp=sharing),[Baidu](https://pan.baidu.com/s/10e-pIhxwB-Nt1uWCjmgJzw?pwd=07rl)|
 ||Dense-Haze|17.46|0.578|[gdrive](https://drive.google.com/file/d/1XfW0PzfxIEhI4GWMTvqOjxIsPE_syB0V/view?usp=sharing),[Baidu](https://pan.baidu.com/s/1AAsA5cKGz6tnIJMpeuU98A?pwd=d3nd)|
