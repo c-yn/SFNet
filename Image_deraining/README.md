@@ -1,4 +1,4 @@
-### Download the dataset for training and testing
+### Download the dataset and model
 [gdrive](https://drive.google.com/drive/folders/1oLxH3yXiKzlWrf38XZXq8HYY-YFNnYjo?usp=sharing)
 
 ### Training
