@@ -5,6 +5,7 @@ Yuning Cui, Yi Tao, [Zhenshan Bing](https://scholar.google.com.hk/citations?user
 [![](https://img.shields.io/badge/ICLR-Paper-blue.svg)](https://openreview.net/forum?id=tyZ1ChGZIKO)
 
 ## Update 
+- 2023.08.04  :tada: Release the model and code for image deraining
 - 2023.04.19  :tada: Release our results on RSBlur
 - 2023.04.14 	:tada: Release pre-trained models, code for three tasks (dehazing, motion deblurring, desnowing), and resulting images on most datasets.
 
