@@ -35,13 +35,13 @@ if __name__ == '__main__':
     parser.add_argument('--data_dir', type=str, default='GOPRO')
 
     parser.add_argument('--mode', default='train', choices=['train', 'test'], type=str)
-    parser.add_argument('--data', type=str, default='GOPRO', choices=['GOPRO', 'HIDE'])
+    parser.add_argument('--data', type=str, default='GOPRO', choices=['GOPRO', 'HIDE', 'RSBlur'])
 
     # Train
     parser.add_argument('--batch_size', type=int, default=4)
     parser.add_argument('--learning_rate', type=float, default=1e-4)
     parser.add_argument('--weight_decay', type=float, default=0)
-    parser.add_argument('--num_epoch', type=int, default=3000)
+    parser.add_argument('--num_epoch', type=int, default=3000) # rsblur:710
     parser.add_argument('--print_freq', type=int, default=100)
     parser.add_argument('--num_worker', type=int, default=8)
     parser.add_argument('--save_freq', type=int, default=100)

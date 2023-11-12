@@ -108,6 +108,8 @@ class Gap(nn.Module):
                 self.gap = AvgPool2d(base_size=110)
             elif mode[1] == 'GOPRO':
                 self.gap = AvgPool2d(base_size=80)
+            elif mode[1] == 'RSBlur':
+                self.gap = AvgPool2d(base_size=75)
 
     def forward(self, x):
         x_d = self.gap(x)
@@ -212,6 +214,8 @@ class SFconv(nn.Module):
                 self.gap = AvgPool2d(base_size=110)
             elif mode[1] == 'GOPRO':
                 self.gap = AvgPool2d(base_size=80)
+            elif mode[1] == 'RSBlur':
+                self.gap = AvgPool2d(base_size=75)
 
     def forward(self, low, high):
         emerge = low + high
@@ -246,6 +250,8 @@ class Patch_ap(nn.Module):
                 self.ap = AvgPool2d(base_size=110)
             elif mode[1] == 'GOPRO':
                 self.ap = AvgPool2d(base_size=80)
+            elif mode[1] == 'RSBlur':
+                self.gap = AvgPool2d(base_size=75)
 
 
         self.patch_size = patch_size

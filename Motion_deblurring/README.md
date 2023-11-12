@@ -8,6 +8,7 @@ python main.py  --data_dir your_path/GOPRO
 ### Evaluation
 #### Download the model
 -  [[gdrive](https://drive.google.com/drive/folders/1OJv9d6e90hlpDSyo8oJY-END3xj4nUmg?usp=sharing)(GoPro/RSBlur), [Baidu](https://pan.baidu.com/s/1PXQgpI-h-Epiaiy9wy3CUg?pwd=10ne)(GoPro)]
+-  
 #### Testing on GoPro
 ~~~
 python main.py --data GOPRO --mode test --data_dir your_path/GOPRO --test_model path_to_gopro_model --save_image True
@@ -16,3 +17,8 @@ python main.py --data GOPRO --mode test --data_dir your_path/GOPRO --test_model 
 ~~~
 python main.py --data HIDE --mode test --data_dir your_path/HIDE --test_model path_to_gopro_model --save_image True
 ~~~
+#### Testing on RSBlur
+~~~
+python main.py --data RSBlur --mode test --data_dir your_path/RSBlur --test_model path_to_RSBlur_model --save_image False
+~~~
+Pleae set 'save_image' as Ture to get the resulting images, and then using the official evaluation code of RSBlur to produce PSNR/SSIM.
