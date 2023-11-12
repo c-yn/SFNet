@@ -7,7 +7,7 @@ python main.py  --data_dir your_path/GOPRO
 ~~~
 ### Evaluation
 #### Download the model
-- GoPro [[gdrive](https://drive.google.com/file/d/1KjetPk7dmSod8ntzlo3OU6D5oPPqjMSe/view?usp=sharing), [Baidu](https://pan.baidu.com/s/1PXQgpI-h-Epiaiy9wy3CUg?pwd=10ne)]
+-  [[gdrive](https://drive.google.com/drive/folders/1OJv9d6e90hlpDSyo8oJY-END3xj4nUmg?usp=sharing)(GoPro/RSBlur), [Baidu](https://pan.baidu.com/s/1PXQgpI-h-Epiaiy9wy3CUg?pwd=10ne)(GoPro)]
 #### Testing on GoPro
 ~~~
 python main.py --data GOPRO --mode test --data_dir your_path/GOPRO --test_model path_to_gopro_model --save_image True
