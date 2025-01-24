@@ -6,8 +6,6 @@ Yuning Cui, Yi Tao, [Zhenshan Bing](https://scholar.google.com.hk/citations?user
 
 ## Update 
 
-### Our extended paper has been accepted by T-PAMI ([Image Restoration via Frequency Selection](https://ieeexplore.ieee.org/abstract/document/10310164))
-
 - 2023.08.04  :tada: Release the model and code for image deraining
 - 2023.04.19  :tada: Release our results on RSBlur
 - 2023.04.14 	:tada: Release pre-trained models, code for three tasks (dehazing, motion deblurring, desnowing), and resulting images on most datasets.
@@ -63,4 +61,4 @@ If you find this project useful for your research, please consider citing:
 ## Acknowledgement
 This project is mainly based on [MIMO-UNet](https://github.com/chosj95/MIMO-UNet).
 ## Contact
-Should you have any question, please contact Yuning Cui.
+Should you have any questions, please contact Yuning Cui.
