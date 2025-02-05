@@ -22,6 +22,10 @@ For installing, follow these instructions:
 conda install pytorch=1.8.1 torchvision=0.9.1 -c pytorch
 pip install tensorboard einops scikit-image pytorch_msssim opencv-python
 ~~~
+Please use the pillow package downloaded by Conda instead of pip.
+
+
+
 Install warmup scheduler:
 ~~~
 cd pytorch-gradual-warmup-lr/
